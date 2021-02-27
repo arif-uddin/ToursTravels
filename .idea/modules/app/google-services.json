@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "32919569632",
+    "firebase_url": "https://tourstravelsadmin.firebaseio.com",
+    "project_id": "tourstravelsadmin",
+    "storage_bucket": "tourstravelsadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32919569632:android:a65f998aaef1f8eede3c85",
+        "android_client_info": {
+          "package_name": "com.diu.tourstravels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32919569632-0gmap97ch9qtng66p3t5v198ktju8uiu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.diu.tourstravels",
+            "certificate_hash": "b0bc5cac66e8354e4eaedc043fe6399ea319d516"
+          }
+        },
+        {
+          "client_id": "32919569632-ejr715iibdim5gvhal5pnr2760jve1fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiLY2tGfCy8brL21jEEVQqj-GPFwfbPW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32919569632-ejr715iibdim5gvhal5pnr2760jve1fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32919569632:android:1f89a2f7e11b6181de3c85",
+        "android_client_info": {
+          "package_name": "com.diu.tourstravelsadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32919569632-8rm4258ov3jonrue2htlacc7t3c92hrv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.diu.tourstravelsadmin",
+            "certificate_hash": "b0bc5cac66e8354e4eaedc043fe6399ea319d516"
+          }
+        },
+        {
+          "client_id": "32919569632-ejr715iibdim5gvhal5pnr2760jve1fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiLY2tGfCy8brL21jEEVQqj-GPFwfbPW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32919569632-ejr715iibdim5gvhal5pnr2760jve1fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:icon="@drawable/ic_action_search"
+    app:showAsAction="always|collapseActionView"
+    android:title="Search"
+    android:id="@+id/action_search"
+    app:actionViewClass="androidx.appcompat.widget.SearchView">
+
+</item>
+    <item
+        android:title="Booking List"
+        android:id="@+id/itemBookingList">
+    </item>
+
+    <item
+        android:title="Payment Receipt"
+        android:id="@+id/itemPaymentReceipt">
+    </item>
+    <item
+        android:title="Log Out"
+        android:id="@+id/itemLogOut">
+    </item>
+    <item
+        android:title="About"
+        android:id="@+id/itemAbout">
+    </item>
+</menu>

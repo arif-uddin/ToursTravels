@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.PackageDetailsActivity">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/im_images"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+
+                <TextView
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_margin="8dp"
+                    android:gravity="right"
+                    android:textColor="#000"
+                    android:text="Total Likes: 0"
+                    android:id="@+id/likes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="Package Name"
+                    android:id="@+id/packageName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="Location:"
+                    android:id="@+id/placeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:textSize="18dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="Description:"
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:textSize="18dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="Days:"
+                    android:id="@+id/days"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:textSize="18dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="No of Adult:"
+                    android:id="@+id/adult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:textSize="18dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="No of Child:"
+                    android:id="@+id/child"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:textSize="18dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="Stay Amount:"
+                    android:id="@+id/stayAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:textSize="18dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="Food Amount:"
+                    android:id="@+id/foodAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:textSize="18dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="Bus Amount:"
+                    android:id="@+id/busAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+                <TextView
+                    android:textSize="18dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="Train Amount:"
+                    android:id="@+id/trainAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:textSize="18dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="Airlines Amount :"
+                    android:id="@+id/airlinesAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textColor="#000"
+                    android:text="**For any query contact us: 01710-000000**"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <Button
+                    android:onClick="btnBuy"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button_ripple"
+                    android:textColor="#fff"
+                    android:text="buy package"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

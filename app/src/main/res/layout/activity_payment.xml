@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PaymentActivity">
+
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#E6D6B4"
+        android:id="@+id/cardView"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/bookingId"
+                android:text="Booking serial no:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/dateOfBooking"
+                android:text="date of booking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/bookingName"
+                android:text="Booking name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/phoneNo"
+                android:text="Phone no "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/dateForBooking"
+                android:text="Date for Booking "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/packageName"
+                android:text="Package Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/placeName"
+                android:text="Location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/days"
+                android:text="Days"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/adult"
+                android:text="Adult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/child"
+                android:text="Child"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/stayAmount"
+                android:text="Stay Amount:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/foodAmount"
+                android:text="Food Amount "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/totalAmount"
+                android:text="Total Amount:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/payment"
+                android:text="Payment:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/bookingStatus"
+                android:text="Booking Status:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <EditText
+                android:visibility="gone"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#fff"
+                android:id="@+id/trxId"
+                android:hint="Enter TrxID to confirm!"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+            </EditText>
+
+            <TextView
+                android:visibility="gone"
+                android:gravity="center"
+                android:background="#FDD835"
+                android:layout_marginBottom="5dp"
+                android:textColor="#9C0000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/bkash"
+                android:text="Bkash/Nagad/Rocket: 01303-500600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:visibility="gone"
+                        android:layout_marginRight="2dp"
+                        android:id="@+id/btnCancel"
+                        android:background="@drawable/button_ripple_2"
+                        android:textColor="#fff"
+                        android:text="Cancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </Button>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:visibility="gone"
+                        android:layout_marginLeft="2dp"
+                        android:id="@+id/btnPay"
+                        android:background="@drawable/button_ripple_2"
+                        android:textColor="#fff"
+                        android:text="confirm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

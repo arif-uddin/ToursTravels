@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity.SignUpActivity">
+
+    <TextView
+        android:textSize="30sp"
+        android:textColor="#FF1B9692"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up">
+
+    </TextView>
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Full Name">
+
+    </EditText>
+
+    <EditText
+        android:inputType="number"
+        android:layout_margin="20dp"
+        android:id="@+id/contactNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contact No.">
+
+    </EditText>
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter E-mail Address">
+
+    </EditText>
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ProgressBar>
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password">
+
+    </EditText>
+    <Button
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:background="@drawable/button_ripple"
+        android:layout_margin="20dp"
+        android:text="Sign Up"
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/login"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:text="Already have an account? Login here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+</LinearLayout>
